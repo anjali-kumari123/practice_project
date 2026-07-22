@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practice_project/ragister_screen.dart';
 
+import 'login_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: RegisterScreen(),
+      debugShowCheckedModeBanner: false,
+home: LoginScreen(),
     );
   }
 }
