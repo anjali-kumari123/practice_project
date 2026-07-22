@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
             children: [
               Container(
                 height: 120,
-                width: 120,s
+                width: 120,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(30),
