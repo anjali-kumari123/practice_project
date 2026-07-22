@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_project/ragister_screen.dart';
 
 import 'login_screen.dart';
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-home: LoginScreen(),
+home: RegisterScreen(),
     );
   }
 }
