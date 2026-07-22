@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_project/ragister_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -179,7 +180,9 @@ class _LoginScreenState extends State<LoginScreen> {
 
               Center(
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterScreen(),));
+                  },
                   child: RichText(
                     text: const TextSpan(
                       text: "Don't have an account? ",
