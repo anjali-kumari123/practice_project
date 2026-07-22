@@ -24,6 +24,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
+        leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back),color: Colors.indigo,),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
